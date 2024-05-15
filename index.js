@@ -12,7 +12,7 @@ import cfonts from 'cfonts';
 
 const { say } =  cfonts;
 
-say("ROMEK - XD", {
+say("STAR - V2", {
   'font': "block",
   'align': "center",
   'colors': ['#ff9900'],
