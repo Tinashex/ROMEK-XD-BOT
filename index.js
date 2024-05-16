@@ -77,7 +77,7 @@ async function start(scriptName) {
   });
 
   childProcess.on("exit", exitCode => {
-    isRunning = false;
+    isRunning = true;
     console.error(chalk.red("❌Exited with code: " + exitCode));
     if (exitCode === 0x0) {
       return;
