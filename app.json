@@ -11,7 +11,7 @@
     "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": false,
-      "value": "mongodb://uv7oepomz2v9efwqcr73:c8Og2GEO9eNNrtmeI5J@bnqpfz2jceadsdwbg3tx-mongodb.services.clever-cloud.com:2386/bnqpfz2jceadsdwbg3tx
+      "value": "postgres://romex_user:cf2xOMWYB7aFMSNrIGdl9MxwaFFnL95y@dpg-cp2ojmkf7o1s73bkl5ig-a/romex
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
