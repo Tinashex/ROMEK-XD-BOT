@@ -11,7 +11,8 @@
     "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": false,
-      "value": "postgres://romex_user:cf2xOMWYB7aFMSNrIGdl9MxwaFFnL95y@dpg-cp2ojmkf7o1s73bkl5ig-a/romex",
+      "value": "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority"
+    },
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
@@ -41,7 +42,11 @@
       "description": "make it true if you want bot to view status",
       "required": false,
       "value": "true"
-    
+    },
+    "autoRead": {
+      "description": "make it true if you want bot to read messages",
+      "required": false,
+      "value": "false"
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
