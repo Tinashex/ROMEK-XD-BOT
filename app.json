@@ -42,11 +42,7 @@
       "description": "make it true if you want bot to view status",
       "required": false,
       "value": "true"
-    },
-    "autoRead": {
-      "description": "make it true if you want bot to read messages",
-      "required": false,
-      "value": "false"
+    
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
